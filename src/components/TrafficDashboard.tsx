@@ -276,7 +276,7 @@ const TrafficDashboard: React.FC = () => {
         </aside>
 
         {/* Map */}
-        <section className="flex-1 relative">
+        <section className="flex-1 relative min-h-0 overflow-hidden">
           <SmartMap route={route} allNodes={BAHIR_DAR_NODES} />
 
           {/* Map legend */}

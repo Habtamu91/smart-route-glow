@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Polyline, Tooltip, useMap } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import { Node, RouteResult, EdgeWithTraffic } from '../types/index';
 import { BAHIR_DAR_EDGES } from '../data/bahirdar-graph';

@@ -79,9 +79,9 @@ const TrafficDashboard: React.FC = () => {
         </div>
       </header>
 
-      <main className="flex-1 flex flex-col md:flex-row overflow-hidden relative min-h-0">
+      <main className="flex-1 flex flex-row overflow-hidden relative min-h-0">
         {/* Sidebar */}
-        <aside className="w-full md:w-[380px] bg-card border-r border-border flex flex-col overflow-y-auto z-20">
+        <aside className="w-[340px] min-w-[340px] bg-card border-r border-border flex flex-col overflow-y-auto z-20">
           {activeTab === 'routing' ? (
             <div className="p-5 space-y-6">
               <section className="space-y-4">

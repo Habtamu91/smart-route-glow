@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker, Polyline, Tooltip, useMap } from 'reac
 import L from 'leaflet';
 import { Node, RouteResult, EdgeWithTraffic } from '../types/index';
 import { BAHIR_DAR_EDGES } from '../data/bahirdar-graph';
-import { computeEdgeTraffic, getTrafficColor, getTrafficLevel } from '../lib/dijkstra';
+import { computeEdgeTraffic, getTrafficColor } from '../lib/dijkstra';
 
 const createNodeIcon = (isRouteNode: boolean, isStart: boolean, isEnd: boolean) => {
   let color = '#475569';
